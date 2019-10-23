@@ -1,0 +1,19 @@
+{
+  "name": "skills-awsnodejs",
+  "version": "1.0.0",
+  "description": "Deploy a Node.js Application with DynamoDB to Elastik Beanstalk",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "create skills-awsnodejs"
+  },
+  "keywords": [
+    "skills",
+    "node"
+  ],
+  "author": "Tony Berry",
+  "license": "MIT"
+}

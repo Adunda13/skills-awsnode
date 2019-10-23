@@ -1,0 +1,17 @@
+org: 64tokyo
+app: skills-awsnodejs-app
+service: skills-awsnodejs
+provider:
+  name: aws
+  runtime:  nodejs10.x
+  memorySize: 512
+  timeout: 3
+  region: us-west-2
+  environment:
+    NSOLID_LICENSE_KEY: 0120903e-489c-49f2-946a-f60dec58eda7
+
+functions:
+  hello:
+    handler: handler.hello
+    layers:
+      - arn:aws:lambda:us-west-2:800406105498:layer:nsolid-node-8:14
